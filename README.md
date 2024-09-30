@@ -24,6 +24,12 @@ This project is a full-stack application designed to provide an RTSP livestream 
 
 ## 🚀 Getting Started
 
+**Clone the repository:**
+   ```bash
+   git clone https://github.com/aishwaryamensinkai/OverlayStream.git
+   cd OverlayStream/
+   ```
+
 ### Backend Setup
 1. **Navigate to the backend directory:**
    ```bash

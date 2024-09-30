@@ -31,8 +31,8 @@ Before running this project, ensure you have the following installed:
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/aishwaryamensinkai/OverlayStream.git
+   cd OverlayStream/backend/
    ```
 
 2. **Create a virtual environment:**

@@ -45,8 +45,8 @@ This project is a React-based application designed for managing RTSP livestreams
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/aishwaryamensinkai/OverlayStream.git
+   cd OverlayStream/frontend/
    ```
 
 2. **Install dependencies:**
