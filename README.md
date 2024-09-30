@@ -65,6 +65,9 @@ This project is a full-stack application designed to provide an RTSP livestream 
    ```
    The React app will run on `http://localhost:3000`.
 
+
+To test on the website you can use this link `https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8`
+
 ## 📑 API Documentation
 
 The backend provides a CRUD API to manage overlays.
