@@ -1,0 +1,19 @@
+/* App.css */
+.app-container {
+  padding: 20px;
+  text-align: center;
+  background-color: #e9ecef;
+  min-height: 100vh;
+}
+
+.app-container h1 {
+  color: #343a40;
+  margin-bottom: 30px;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}

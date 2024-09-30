@@ -1,0 +1,99 @@
+/* OverlaySettings.css */
+.overlay-settings {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  max-width: 800px;
+  margin: 40px auto;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.overlay-settings h2 {
+  color: #4a4a4a;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  text-align: center;
+  border-bottom: 2px solid #ececec;
+  padding-bottom: 10px;
+}
+
+.overlay-inputs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.overlay-inputs input[type="text"],
+.overlay-inputs input[type="file"],
+.overlay-inputs select {
+  padding: 12px;
+  flex: 1;
+  border: 2px solid #ececec;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.overlay-inputs input:focus,
+.overlay-inputs select:focus {
+  border-color: #007bff;
+}
+
+.create-button {
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.create-button:disabled {
+  background-color: #c0c0c0;
+  cursor: not-allowed;
+}
+
+.create-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.overlay-list {
+  list-style: none;
+  padding: 0;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.overlay-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  background-color: #f8f9fa;
+  margin-bottom: 10px;
+  border: 2px solid #ececec;
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+}
+
+.overlay-list li:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
